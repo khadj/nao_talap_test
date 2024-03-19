@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Average Calculator</title>
+</head>
+<body>
+<h2>Введите числа через запятую</h2>
+<form action="#" th:action="@{/average}" method="post">
+    <label>
+        <input type="text" name="numbers" required>
+    </label>
+    <button type="submit">Посчитать среднее</button>
+</form>
+</body>
+</html>

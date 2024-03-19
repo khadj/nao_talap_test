@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Реверс числа</title>
+</head>
+<body>
+<h2>Введите целое число для реверса</h2>
+<form action="#" th:action="@{/reverse}" method="post">
+    <label>
+        <input type="number" name="inputNumber" required>
+    </label>
+    <button type="submit">Реверс</button>
+</form>
+</body>
+</html>

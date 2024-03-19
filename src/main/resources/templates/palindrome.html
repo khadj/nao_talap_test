@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Проверка на палиндром</title>
+</head>
+<body>
+<h2>Введите строку для проверки на палиндром</h2>
+<form action="#" th:action="@{/check-palindrome}" method="post">
+    <label>
+        <input type="text" name="inputString" required>
+    </label>
+    <button type="submit">Проверить</button>
+</form>
+</body>
+</html>
